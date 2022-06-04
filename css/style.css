@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{margin:0;padding:0;}
+body{
+	font-family: 'Work Sans', sans-serif;
+	font-size:16px;
+}
+
+h1,h2,h3,h4,h5,h6{
+		font-family: 'Oswald', sans-serif;font-width:500;
+}
+section{
+	padding:80px 0px;
+}
+
+.topBarMain {
+    background: #eaeaea;
+}
+.container {
+    width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+.topBarWrapper {
+    overflow: hidden;
+}
+
+.phone {
+    width: 225px;
+    float: left;
+	padding: 15px 15px;
+	border-left:1px solid #d6d6d6;
+	border-right:1px solid #d6d6d6;
+}
+.phone i {
+    color: #D81443;  
+}
+.email {
+    width: 713px;
+    float: left;
+	padding: 15px 15px;
+}
+.email i {
+    color: #D81443;
+}
+.social {
+    width: 140px;
+    float: left;
+	
+}
+.social a {
+    display: block;
+    float: left;
+    padding: 15px;
+    border-right: 1px solid #d6d6d6;
+	color:#2f2f2f;
+}
+.social i:hover{
+	color: #D81443;
+	transition:2 sec;
+}
+
+.social a:first-child{
+	border-left:1px solid #d6d6d6;
+}
+.primaryWrapper {
+    overflow: hidden;
+    width: 100%;
+}
+.logo {
+    width: 257px;
+    float: left;
+	margin-top: 28px;
+}
+.logo img{
+	width:102%;
+}
+.menu {
+    width: 883px;
+    float: left;
+}
+ul.mainMenuItem{
+    list-style:none;
+	float: right;
+}
+ul.mainMenuItem li {
+    float: left;
+}
+ul.mainMenuItem li a {
+    text-decoration: none;
+    font-family: oswald;
+    text-transform: uppercase;
+    font-size: 19px;
+    display: block;
+    padding: 30px 15px;
+	color:#2f2f2f;
+	font-weight: 500;
+}
+ul.mainMenuItem li a:hover{
+	color:#D81443;
+}
+
+#homeSlider {
+    background: url(../images/laptop-2838921_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+	padding:0px;
+}
+.sliderContent {
+    color: white;
+	width: 596px;
+}
+.sliderContent h1 {
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+	margin-bottom: 30px;
+	margin-top:100px;
+	float:left;
+	text-shadow: 3px 3px 6px black;
+}
+.sliderContent p {
+    font-weight: 500;
+    line-height: 25px;
+    width: 471px;
+    margin-bottom: 30px;
+	text-shadow: 3px 3px 6px black;
+}
+button#workbutton {
+    background: #D81443;
+    color: white;
+    width: 189px;
+    border: none;
+    padding: 5px 5px;
+    font-size: 20px;
+    font-family: 'Oswald';
+    font-weight: 400;
+    border-radius: 5px;
+    margin-bottom: 90px;
+}
+section#section {
+    background: #eaeaea;
+}
+.boxWrapper {
+    overflow: hidden;
+}
+.singleBox {
+    width: 225px;
+    background: white;
+    padding: 15px;
+    float: left;
+    margin-right: 30px;
+}
+.sBoxTitle {
+    text-align: center;
+    text-transform: uppercase;
+	margin:20px 0px;
+	color: #2f2f2f;
+}
+
+.sBoxDesc {
+    text-align: center;
+    line-height: 22px;
+    font-size: 17px;
+	margin:20px 0px;
+}
+.sBoxLink {
+    text-align: center;
+}
+.sBoxLink a {
+    text-decoration: none;
+    color: #d81443;
+    font-weight: 600;
+	paddin bottom:20px;
+}
+.sBoxIcon {
+    text-align: center;
+    font-size: 55px;
+    color: #d81443;
+    margin: 25px 0px;
+}
